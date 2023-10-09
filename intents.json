@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "start",
+        "Hai"
+      ],
+      "responses": [
+        "Hi there! Feel free to ask me about determining a child's talent!"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later. If you have any more questions about determining a child's talent, feel free to ask.",
+        "Have a nice day! If you need further assistance regarding determining a child's talent, don't hesitate to reach out.",
+        "Bye! Feel free to come back anytime if you need help with determining a child's talent."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["You're welcome! If you have more inquiries about determining a child's talent, feel free to ask.", "Glad to be of help!", "I'm happy to assist you."]
+    },
+
+    {
+      "tag": "talent_info",
+      "patterns": [
+        "How to determine a child's talent?",
+        "What is talent determination?",
+        "Can you help me identify my child's talent?"
+      ],
+      "responses": [
+        "Determining a child's talent can be done through various methods such as observing their interests, trying different activities, and seeking professional guidance. It's important to provide a supportive and nurturing environment for your child to explore and develop their talents."
+      ]
+    },
+
+    {
+      "tag": "general_intellectuals",
+      "patterns": [
+        "What is general intellectuals?",
+        "Tell me about general intellectuals!",
+        "Intelektual Umum"
+      ],
+      "responses": [
+        "General intellectuals refer to individuals who have extensive knowledge and deep understanding in various fields of knowledge and topics. They tend to have a broad range of interests and can often speak or write about a wide variety of topics with good understanding. General intellectuals can integrate and connect knowledge from various disciplines to gain a more holistic insight. They usually have strong critical abilities and are committed to continuously learning and developing their knowledge."
+      ]
+    },
+
+    {
+      "tag": "special_academic",
+      "patterns": [
+        "What is special academic?",
+        "Tell me about special academic!",
+        "Akademik Khusus"
+      ],
+      "responses": [
+        "Specialized academics refer to individuals who have very deep knowledge and expertise in a particular field. They focus on a particular field of study or discipline, and often have spent significant time studying, conducting research, and developing their understanding in that area. Specialized academics usually have higher education degrees in that specific field and can be authorities or experts in that field. They may be involved in research, publication, teaching, and various professional activities related to their specific field of study."
+      ]
+    },
+
+    {
+      "tag": "think creatively and productively",
+      "patterns": [
+        "What is think creatively and productively?",
+        "Tell me about think creatively and productively!",
+        "Berpikir kreatif dan produktif"
+      ],
+      "responses": [
+        "Creative and productive thinking enables one to generate new useful ideas and apply these ideas in a practical and positive way. This is an important skill in fields such as art, science, business, technology, and many more."
+      ]
+    },
+
+    {
+      "tag": "leadership",
+      "patterns": [
+        "What is leadership?",
+        "Tell me about leadership!",
+        "Kepemimpinan"
+      ],
+      "responses": [
+        "Leadership involves a variety of skills and characteristics, including effective communication skills, the ability to inspire and motivate others, the ability to make sound decisions, the ability to build good relationships, and the ability to manage conflict and solve problems.",
+        "Leading and inspiring others"
+      ]
+    },
+
+    {
+      "tag": "Visual and Performing Arts",
+      "patterns": [
+        "What is Visual and Performing Arts?",
+        "Tell me about Visual and Performing Arts!",
+        "Seni visual dan pertunjukan"
+      ],
+      "responses": [
+        "Visual and performing arts are forms of creative expression and can be used to convey various meanings, inspirations or messages to the audience or viewers. They also have an important role in culture, presenting beauty, provoking thoughts, stirring emotions and enriching the human experience."
+      ]
+    },
+
+    {
+      "tag": "Psychomotor",
+      "patterns": [
+        "What is Psychomotor?",
+        "Tell me about Psychomotor!",
+        "Psikomotorik"
+      ],
+      "responses": [
+        "Psychomotor has an important role in children's learning and development, including in physical education, sports, art, music, and other physical activities. It may also relate to physical therapy or rehabilitation for individuals with injuries or motor impairments. It is important to note that psychomotor is not only related to physical movement alone, but also involves the cognitive, emotional, and social aspects involved in the process."
+      ]
+    },
+
+    {
+      "tag": "talent_activities",
+      "patterns": [
+        "Are there any specific activities for talent discovery?",
+        "Can you suggest some talent exploration activities?"
+      ],
+      "responses": [
+        "Engaging your child in diverse activities like music, sports, arts, coding, or other hobbies can help in identifying their talents."
+      ]
+    },
+
+    {
+      "tag": "support",
+      "patterns": [
+        "How can I support my child's talent development?",
+        "What can I do to nurture my child's talent?",
+        "Any tips for fostering my child's talent?"
+      ],
+      "responses": [
+        "Support your child's talent development by providing resources, encouragement, and opportunities to explore their interests further."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+buka CMD pada direktori projek, lalu ketik:
+python -m venv venv
+
+Lalu ketik:
+. venv/Script/activate
+
+Kemudian install library yang dibutuhkan, ketik:
+pip install Flask torch torchvision nltk
+
+Masih di dalam CMD, ketik:
+python
+import nltk
+nltk.download('punkt')
+
+Jika sudah, jalankan program python train.py, untuk melatih data kata yang ada di dalam file json, dengan cara:
+python train.py
+
+Setelah selesai, akan muncul file data.pth, jika muncul lanjut jalankan file python app.py:
+python chat.py
+
+Jika sudah, maka window CMD baru akan muncul dan menampilkan URL localhost, copy URL tersebut dan buka
+di browser, nantinya jika berhasil ia akan menampilkan page kosong dengan icon chatbot di pojok kanan
+bawah, klik itu untuk memulai chatbot.
