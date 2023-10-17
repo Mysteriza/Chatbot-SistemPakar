@@ -47,6 +47,10 @@ Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 ## Note
 In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
 
+## Screenshot
+![image](https://github.com/Mysteriza/Chatbot-SistemPakar/assets/76644526/8ef1d534-d2e9-47b8-b174-490a2b8fe0c4)
+
+
 ## Credits:
 This repo was used for the frontend code:
 https://github.com/hitchcliff/front-end-chatjs
